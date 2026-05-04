@@ -19,6 +19,9 @@ _Pour plus d'informations, consulter le CDC dans le dossier du projet_
 * Librairies : Bluepad32 => (https://github.com/ricardoquesada/bluepad32)
 * OS : Win 10 22H2
 * Autres outils : Manette => 8bitdo Lite2, Xbox series X (Manette personnel), Logitec pebble (perso, test fonctionnement bluetooth)
+* Fonctionnement : Xbox => OK
+*                  Logitec => OK
+*                  8bitDo => NOK
 
 ### Versions
 
