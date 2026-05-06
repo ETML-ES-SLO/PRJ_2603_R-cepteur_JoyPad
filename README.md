@@ -33,25 +33,24 @@ _Pour plus d'informations, consulter le CDC dans le dossier du projet_
 
 ## 3. Mise en place du projet
 
-### Installation
+### Installation 
 
-1. Cloner le dépôt :
+1. Ouvrir Visual studio code
 
-```bash
-git clone <url_du_repo>
-```
+2. Installer l'extension ESP-IDF selon la marche à suivre ci-dessous (étape 1 à 2):
+https://github.com/ricardoquesada/bluepad32/blob/main/examples/esp32/README.md
 
-2. Accéder au dossier :
+4. Lancer l'extension expressif
+   <img width="52" height="61" alt="image" src="https://github.com/user-attachments/assets/b3aed5b3-9b8c-4442-80bc-da518a4824e4" />
+5. Ouvrir un terminal à cette endroit:
+<img width="343" height="109" alt="image" src="https://github.com/user-attachments/assets/1cc61f08-ff5f-4a15-a437-f5c0522b6e78" />
+6. Dans le terminal tapper:
+   "idf.py create-project XXX"
+   "idf.py set-target esp32s3"
+   "idf.py fullclean"
+   "idf.py build"
+ 
 
-```bash
-cd <nom_du_projet>
-```
-
-3. Compiler :
-
-```bash
-<commande_de_build>
-```
 
 ---
 
@@ -134,6 +133,9 @@ cd <nom_du_projet>
 * Flow chart :
 * Code d'example Bluepad32
   <img width="2189" height="1608" alt="mermaid-diagram-2026-04-29-093216" src="https://github.com/user-attachments/assets/d28e81b7-db20-437c-8e8f-e411d4e796b8" />
+* Code final envisagé :
+  <img width="1734" height="1526" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/2999aacd-bc15-417d-ac2a-de7797378199" />
+
 
 * Structogramme
 
